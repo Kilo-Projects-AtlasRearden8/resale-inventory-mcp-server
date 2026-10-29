@@ -1,0 +1,17 @@
+{
+  "name": "resale-inventory-mcp-server",
+  "version": "1.0.0",
+  "description": "Local-first MCP server for reselling inventory (eBay/Amazon). Tracks SKU, cost, sale price, and storage location via stdio with local JSON storage.",
+  "type": "module",
+  "main": "src/server.js",
+  "bin": {
+    "resale-inventory-mcp-server": "src/server.js"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "vitest run"
+  },
+  "keywords": ["mcp", "reselling", "inventory", "ebay", "amazon", "local-first"],
+  "author": "Asdale Dynamics, LLC",
+  "license": "MIT"
+}
