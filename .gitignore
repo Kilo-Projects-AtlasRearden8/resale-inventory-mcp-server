@@ -1,6 +1,12 @@
-node_modules/
-inventory.json
-dist/
-coverage/
-.DS_Store
 *.log
+*.pyc
+.DS_Store
+.env
+.env.*
+.venv/
+__pycache__/
+coverage/
+dist/
+dist/*.tmp
+inventory.json
+node_modules/
